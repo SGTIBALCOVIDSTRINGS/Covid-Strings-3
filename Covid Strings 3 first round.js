@@ -34,49 +34,49 @@ create matchup(orange versus black)
 matchup.covid strings seed list .add(matchup)
 bracket append.child(matchup)
 return round 
-teams=[One: Black Night Riders, Two Purple Brave Hearts Three: Pink Covid Disease Fighters Four:Turquoise Waves Five:Violet Relivers Six:Teal Terminators Seven:Yellow Moxie Eight:Orange RNA Messengers]
-Import Java Util.Scanner
-Import Java.Util
-Questions[]Questions={
-    New Question1
-    New Question2 
-    New Question3
-    New Question4
-    New Question5 
-    New Question6
-    New Question7
-    New Question8
-    New Question9 
-    New Question10
-    New Question11
-    New Question12
-    New Question13
-    New Question14 
-    New Question15 
-    New Question16 
-    New Question17 
-Collections.Shuffle(Arrays.Aslist(Questions)
-Private String GetBlanks(Int NumberofBlanks)
-Char[] Chars = New Char[NumberofBlanks]
-AdvancingTeams=CurrentTeams.Slice(Zero,CurrentTeams/Two)
-Bracket.AddEventListener(Click Eevent) => {
-    Declare Winner
-        If (Event.Target.Covid Strings Seed List .Contains(Team)) {
-            Const Winner = Event.Target.TextContent;
-            Let Result = DeclareWinner(Team1Score, Team2Score);
-            If Pink Score >=Fourty:
-            Console.Log(Pink Covid Disease Fighters Win)
-            Else:
-            Console.Log(Teal Terminators Win)
-Bracket.AddEventListener(Click (Event) => {
-        If (Event.Target.ClassList.Contains(Team)) {
-            Const Winner = Event.Target.TextContent;
-            Let Result= Declare Winner(Team1 Score, Team2 Score)
-            If Turquoise Score>=Fourty:
-            Console.Log(Turquoise Waves Win)
-            Else:
-            Console.Log(Violet Relivers Win)
-            Bracket.AddEventListener(Click, (Event) => {
+teams=[black night riders,purple brave hearts pink covid disease fighters turquoise waves violet relivers teal terminators yellow moxie orange rna messengers]
+java util.scanner
+java.util
+questions[]questions={
+    question1
+    question2 
+    question3
+    question4
+    question5 
+    question6
+    question7
+    question8
+    question9 
+    question10
+    question11
+    question12
+    question13
+    question14 
+    question15 
+    question16 
+    question17 
+collections.shuffle(arrays.aslist(questions)
+private string getblanks(int numberofblanks)
+char[] chars = char[numberofblanks]
+advancingteams=slice(currentteams)
+addeventlistener(clickevent) => {
+declare winner
+if (event.target.covid strings seed list .contains(team)) {
+winner = event.target.textContent;
+result = declarewinner(team1score,team2score);
+if pink score >=fourty:
+console.log(pink covid disease fighters win)
+else:
+console.log(teal terminators win)
+addeventlistener(clickevent) => {
+if (event.target.classlist.contains(team)) {
+winner = event.target.textContent;
+result= declare winner(team1 score, team2 score)
+if turquoise score>=fourty:
+console.log(turquoise waves win)
+else:
+console.log(violet relivers win)
+addeventlistener(clickevent) => {
         If (Event.Target.ClassList.Contains(Team)) {
             Const Winner = Event.Target.TextContent;
             Let Result= Declare Winner(Team1 Score, Team2 Score)
