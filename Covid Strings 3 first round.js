@@ -77,22 +77,22 @@ console.log(turquoise waves win)
 else:
 console.log(violet relivers win)
 addeventlistener(clickevent) => {
-        If (Event.Target.ClassList.Contains(Team)) {
-            Const Winner = Event.Target.TextContent;
-            Let Result= Declare Winner(Team1 Score, Team2 Score)
-            If Purple Score >=Fourty:
-            Console.Log(Purple Brave Hearts Win)
-            Else:
-            Console.Log(Yellow Moxie Wins)
-            Bracket.AddEventListener(Click, (Event) => {
-        If (Event.Target.ClassList.Contains(Team)) {
-            Const Winner = Event.Target.TextContent;
-            Let Result=DeclareWinner(Team1 Score, Team2 Score)
-            If Black Score >=Fourty:
-            Console.Log(Black Night Riders Win)
-            Else:
-            Console.Log(Orange RNA Messengers Win)
-            Return FileName 
+if (event.target.classlist.contains(team)) {
+winner = event.target.textcontent;
+result= declarewinner(team1 score, team2 score)
+if purple score >=fourty:
+console.log(purple brave hearts win)
+else:
+console.log(yellow moxie wins)
+addEventListener(clickevent) => {
+if (event.target.classlist.contains(team)) {
+winner = event.target.textcontent;
+result=declarewinner(team1 score, team2 score)
+if black score >=fourty:
+console.log(black night riders win)
+else:
+console.log(orange rna messengers win)
+returnfilename 
             
 
         
