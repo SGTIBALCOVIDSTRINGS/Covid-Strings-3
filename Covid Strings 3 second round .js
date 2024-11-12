@@ -1,4 +1,4 @@
-doc type html>
+doc type html
 script
 html
 head
@@ -13,7 +13,7 @@ filename=covid strings3 second round.js
 highest remaining seed =(greatest remaining num value in covid strings list)
 lowest remaining seed = (lowest remaining num value in covid strings list)
 intermediate seed1=(first middle remaining value in covid strings list)
-Intermediate Seed2=(second middle remaining value in covid strings list)
+intermediate seed2=(second middle remaining value in covid strings list)
 createround
 round = document.createelement(div);
 round.classlist.add(covid strings3 first round);
