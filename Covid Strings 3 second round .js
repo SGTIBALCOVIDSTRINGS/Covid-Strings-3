@@ -1,6 +1,6 @@
 doc type html>
-    <script>
-  html
+script
+html
 head
 utf-eight
 viewport content=width=device-width
