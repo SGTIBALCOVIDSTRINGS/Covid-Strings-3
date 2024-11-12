@@ -18,7 +18,7 @@ createround
 round = document.createelement(div);
 round.classlist.add(covid strings3 first round);
 document addeventlistener(domcontentloaded)
-bracket=document getelementbyiD(bracket)
+bracket=document getelementbyid(bracket)
 matchup=document.createelement(matchup)
 create matchup (intermediate seed2 versus intermediate seed1)
 matchup.covid strings seed list.add(matchup)
