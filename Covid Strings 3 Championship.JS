@@ -1,5 +1,10 @@
 doc. type. html
 script
+html
+head
+utf8
+viewport content=width=device-width, initial-scale=one>
+title covidstrings 3 championship bracket 
 filename=covidstrings3 championship game .js
 championship game=(high versus lowest remaining seed ) 
 team high seed= highest remaining seed 
