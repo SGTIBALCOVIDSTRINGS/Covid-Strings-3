@@ -4,10 +4,10 @@ filename=covid strings3 .js
 java.awt graphics 
 this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
-var src=documentgetelementbyid(header)
+src=documentgetelementbyid(header)
 src.appendchild(this.img)
 <div id=header></div>
-var audio=new audio (audio_file mp3)
+audio=new audio (audio_file mp3)
 audio.play 
 jbutton random button
 new jbutton (set random color)
@@ -21,13 +21,20 @@ new j panel (new flowlayout(flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener(){
 override 
-public void actionperformed(actionevente){
+public actionperformed(actionevente){
 random r= newrandom();
 colorpanel.setbackground(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))
+num teams
+total players= players per team
+if players per team=zero
+return zero
+else 
+return math floor total players/players per team
+teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
-optionbutton.add actionlistener(new action listener(){
+optionbutton.add actionlistener(new action listener){
 override 
-public void actionperformed(actionevente){
+public  actionperformed(actionevente){
 color m=jcolorchooser.showdialog(funwithgraphics.this,))
 if(multi!=null)
 color panel set.background(multi)
@@ -41,7 +48,7 @@ f.set visible(true);
 f.setsize
 f.set visible(true);
 <label id=lblScore>zero</label>
-var score=zero
+score=zero
 if (mult == x*y)
 [non-concatenated]
 score+=ten
@@ -52,21 +59,21 @@ if (mult == x*y)
 score+=twenty
 else:
 score-=twenty
-var lblScore= document.getelementbyid(lblscore)
+lblScore= document.getelementbyid(lblscore)
 lbl.score.innerHTML=score
 private j button next button=new jbutton(next)
 nextbutton add.actionlistener(this)
-public void actionperformed(action event e) 
+public  actionperformed(action event e) 
 system.out print.in (next button clicked)
 frame.add(next button);
 frame set visible true
-const object {a:one,b:two,c:three,d:four,e:five,f:six,g:seven,h:eight}
-const keys object keys(team)
-const entries object entries(obj);
-const value object= [team color]
+object {a:one,b:two,c:three,d:four,e:five,f:six,g:seven,h:eight}
+keys object keys(team)
+entries object entries(obj);
+value object= [team color]
 covid strings3 team list=[black,purple,pink,turquoise,violet,teal,yellow,orange]
-covid strings3 phrase list=[non-concatenated strings a mask is not the shape of an arrowhead,covid rarely wins a vote against vaccines,kelly clarkson is right; christmas isnt canceled Just Big Christmas Gatherings
-a faucian bargain is Better than a faustian bargain 
+covid strings3 phrase list=[non-concatenated strings a mask is not the shape of an arrowhead,covid rarely wins a vote against vaccines,kelly clarkson is right; christmas isnt canceled just big christmas gatherings
+a faucian bargain is better than a faustian bargain 
 the masters in fall is not the same as the fall of the masters
 similarly, the summer olympics doesnt disappoint because of the fact that its held in an odd year
 the unxplained should  have a covid-nineteen specific special
@@ -132,4 +139,18 @@ if selectedanswer==correct answer:
 log true
 else:
 log false
+answer checker
+scanner=new scanner(system.in)
+string correct answer
+string useranswer=scanner.nextline()
+if useranswer.equals((correctanswer))
+system.out.print.in(correct)
+else:
+system.out.printin(incorrect)
+scanner.close
+check winner:
+if winner==true:
+log(the winner is)
+if winner==false:
+log(no winner yet)  
 return filename
