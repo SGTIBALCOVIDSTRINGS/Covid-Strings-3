@@ -1,11 +1,12 @@
 doc type html
 script
-filename=covid strings3 .js
-java.awt graphics 
 this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
 src=documentgetelementbyid(header)
 src.appendchild(this.img)
+filename=covid strings3 .js
+src.appendchild(this.img)
+java.awt graphics 
 <div id=header></div>
 audio=new audio (audio_file mp3)
 audio.play 
@@ -15,11 +16,11 @@ private final j button option button=
 new j button (change color)
 public fun with graphics(){
 jpanel color panel=new j panel();
-this add (color.panel,border layout.center )
+add (panel,center )
 jpanel button panel=
-new j panel (new flowlayout(flowlayout.center)
+new j panel (flowlayout.center)
 buttonpanel.add(randombutton);
-random.button add actionlistener(new action listener(){
+random.button add actionlistener(new action listener)
 override 
 public actionperformed(actionevente){
 random r= newrandom();
@@ -32,14 +33,14 @@ else
 return math floor total players/players per team
 teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
-optionbutton.add actionlistener(new action listener){
+optionbutton.add actionlistener(new action listener)
 override 
-public  actionperformed(actionevente){
+public actionperformed(actionevente)
 color m=jcolorchooser.showdialog(funwithgraphics.this,))
 if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel,borderlayout.south)
-public static void main(string [] args){
+public static main(string [] args){
 jframe f = new covid strings 3()
 f.set title(covid strings3)
 f.set default closeoperation(jframe.exit_on_close);
@@ -59,8 +60,8 @@ if (mult == x*y)
 score+=twenty
 else:
 score-=twenty
-lblScore= document.getelementbyid(lblscore)
-lbl.score.innerHTML=score
+lblscore= document.getelementbyid(lblscore)
+lbl.score.innerhtml=score
 private j button next button=new jbutton(next)
 nextbutton add.actionlistener(this)
 public  actionperformed(action event e) 
