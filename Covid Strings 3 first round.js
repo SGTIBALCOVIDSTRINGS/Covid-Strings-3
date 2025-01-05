@@ -55,26 +55,14 @@ if pink score>=fourty:
 console.log(pink covid disease fighters win)
 else:
 console.log(teal terminators win)
-addeventlistener(clickevent)
-if (event.target.classlist.contains(team)) 
-winner = event.target.textcontent;
-result= declare winner(team1 score, team2 score)
 if turquoise score>=fourty:
 console.log(turquoise waves win)
 else:
 console.log(violet relivers win)
-addeventlistener(clickevent)
-if (event.target.classlist.contains(team)) 
-winner = event.target.textcontent;
-result= declarewinner(team1 score, team2 score)
 if purple score >=fourty:
 console.log(purple brave hearts win)
 else:
 console.log(yellow moxie wins)
-addEventListener(clickevent) => {
-if (event.target.classlist.contains(team)) {
-winner = event.target.textcontent;
-result=declarewinner(team1 score, team2 score)
 if black score >=fourty:
 console.log(black night riders win)
 else:
