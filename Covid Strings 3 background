@@ -3,10 +3,10 @@ script
 java.awt graphics 
 img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
-var src=document getelementbyid(header)
+src=document getelementbyid(header)
 src.appendchild(this.img)
 <div id=header></div>
-var audio=new audio(audio_file mp3)
+audio=new audio(audio_file mp3)
 audio.play 
 jbutton random button
 new jbutton (set random color)
@@ -14,24 +14,24 @@ private final j button option button=
 new j button (change color)
 public fun with graphics(){
 jpanel color panel=new j panel();
-add (panel, center )
+add (panel,center )
 jpanel button panel=
 new j panel (new flowlayout(flowlayout.center)
 buttonpanel.add(randombutton);
-random.button add actionlistener(new action listener(){
+random.button add actionlistener(new action listener)
 override 
 public void actionperformed(actionevent e){
 random r= newrandom();
-colorPanel.SetBackground(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextInt(thirteen),)(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))
+colorpanel.setbackground(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextInt(thirteen),)(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))
 buttonpanel.add(optionbutton);
 optionbutton.add actionlistener(new action listener(){
 override 
-public void actionperformed(actionevente){
+public actionperformed(actionevente){
 color m=jcolorchooser.showdialog(funwithgraphics.this,)
 if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel, borderlayout.south)
-public static void main(string [] args){
+public static main(string [] args){
 jframe f = new covid strings3()
 f.set title(covid strings3)
 f.set default closeoperation(jframe. exit_on_close);
@@ -62,5 +62,5 @@ frame set visible true
 object {a:one, b:two, c:three, d:four, e:five, f:six, g:seven, h:eight}
 keys object keys(team)
 entries object entries(obj);
-value =object [team color]
+value object= [team color]
 return filename
