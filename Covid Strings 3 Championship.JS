@@ -14,7 +14,6 @@ matchupclassname = matchup
 matchupdiv.innerhtml =[team low seed versus team high seed]
 rounddiv.appendchild(matchupdiv);
 bracket.appendchild(rounddiv);
-advancingteam =slice(currentteams) 
 java util.scanner
 java util
 questions[]questions={
@@ -48,8 +47,9 @@ if selectedanswer==correct answer:
 return true
 else:
 return false
-declare winner
-if team high seed score>sixty=:
+advancingteam =slice(currentteams) 
+result=declare winner(team1score,team2score)
+if team high seed score>=sixty:
 console.log(team high seed wins covid strings3)
 else:
 console.log(team low seed wins covid strings3)
