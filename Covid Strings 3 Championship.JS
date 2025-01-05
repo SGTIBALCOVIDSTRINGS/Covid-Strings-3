@@ -3,7 +3,7 @@ script
 html
 head
 utf8
-viewport content=width=device-width, initial-scale=one>
+viewport content=width=device-width, initial-scale=one
 title covidstrings 3 championship bracket 
 filename=covidstrings3 championship game .js
 championship game=(high versus lowest remaining seed ) 
@@ -11,7 +11,7 @@ team high seed= highest remaining seed
 team low seed = lowest remaining seed
 rounddiv=covid strings3  championship round
 matchupclassname = matchup
-matchupdiv.innerHTML =[team low seed versus team high seed]
+matchupdiv.innerhtml =[team low seed versus team high seed]
 rounddiv.appendchild(matchupdiv);
 bracket.appendchild(rounddiv);
 advancingteam =slice(currentteams) 
@@ -34,7 +34,7 @@ prompt
 log
 else:
 select from multiple choice
-const myclass=newmyclass(concatenated) 
+myclass=newmyclass(concatenated) 
 return category
 if category==math problem:
 prompt
