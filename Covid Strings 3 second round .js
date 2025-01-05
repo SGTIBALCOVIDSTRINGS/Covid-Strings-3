@@ -46,7 +46,7 @@ char[] chars = char[numberofblanks]
 arrays.fill chars 
 return string chars 
 advancingteams=slice(currentteams)
-bracket.innerHTML = html;
+bracket.innerhtml= html;
 result =declarewinner(team1 score, team2 score)
 if intermediateseed1score>=fourty:
 console.log(intermediate seed1 wins)
