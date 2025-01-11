@@ -7,11 +7,11 @@ src.appendchild(this.img)
 filename=covid strings3 .js
 src.appendchild(this.img)
 java.awt graphics 
-<div id=header></div>
+div id=header/div
 audio=new audio (audio_file mp3)
 audio.play 
-jbutton random button
-new jbutton (set random color)
+random button
+new button (set random color)
 private final j button option button=
 new j button (change color)
 public fun with graphics(){
@@ -48,7 +48,7 @@ f.setsize
 f.set visible(true);
 f.setsize
 f.set visible(true);
-<label id=lblScore>zero</label>
+label id=lbl score zero</label
 score=zero
 if (mult == x*y)
 [non-concatenated]
@@ -72,7 +72,7 @@ object {a:one,b:two,c:three,d:four,e:five,f:six,g:seven,h:eight}
 keys object keys(team)
 entries object entries(obj);
 value object= [team color]
-covid strings3 team list=[black,purple,pink,turquoise,violet,teal,yellow,orange]
+covid strings3 team list=[black night riders,purple brave hearts ,pink covid disease fighters ,turquoise waves ,violet relivers ,teal terminators ,yellow moxie ,orange rna messengers]
 covid strings3 phrase list=[non-concatenated strings a mask is not the shape of an arrowhead,covid rarely wins a vote against vaccines,kelly clarkson is right; christmas isnt canceled just big christmas gatherings
 a faucian bargain is better than a faustian bargain 
 the masters in fall is not the same as the fall of the masters
@@ -144,7 +144,7 @@ answer checker
 scanner=new scanner(system.in)
 string correct answer
 string useranswer=scanner.nextline()
-if useranswer.equals((correctanswer))
+if useranswer.equals(correctanswer)
 system.out.print.in(correct)
 else:
 system.out.printin(incorrect)
@@ -154,4 +154,8 @@ if winner==true:
 log(the winner is)
 if winner==false:
 log(no winner yet)  
+if users team wins covid strings3 
+console log users team wins covid strings3 
+else
+return game over 
 return filename
