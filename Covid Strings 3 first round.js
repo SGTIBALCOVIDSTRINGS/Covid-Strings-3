@@ -23,10 +23,10 @@ round.classlist.add(covid strings3 first round);
 return round 
 document addeventlistener(domcontentloaded)
 bracket=document getelementbyid(bracket)
-creatematchup (teal versus pink)
-create matchup (violet versus turquoise)
-create matchup(yellow versus purple)
-create matchup(orange versus black)
+matchup1=(teal versus pink)
+matchup2=(violet versus turquoise)
+matchup3=(yellow versus purple)
+matchup4=(orange versus black)
 if (event.target.covid strings seed list .contains(matchup)
 return matchup
 else
@@ -55,26 +55,29 @@ question17
 collections.shuffle(arrays.aslist(questions)
 private string getblanks(int numberofblanks)
 char[] chars = char[numberofblanks]
+addeventlistener(clickevent)             
 advancingteams=slice(currentteams)
-addeventlistener(clickevent) 
-result = declarewinner(team1score,team2score);
-if pink score>=fourty:
+result = declarewinner(matchup1);
+if pink score>=forty:
 console.log(pink covid disease fighters win)
 else:
 console.log(teal terminators win)
-if turquoise score>=fourty:
+result = declarewinner(matchup2);
+if turquoise score>=forty:
 console.log(turquoise waves win)
 else:
 console.log(violet relivers win)
-if purple score >=fourty:
+result=declarewinner(matchup3);
+if purple score >=forty:
 console.log(purple brave hearts win)
 else:
 console.log(yellow moxie wins)
-if black score >=fourty:
+result = declarewinner(matchup4);
+if black score>=forty:
 console.log(black night riders win)
 else:
 console.log(orange rna messengers win)
-returnfilename 
+return filename 
             
 
         
