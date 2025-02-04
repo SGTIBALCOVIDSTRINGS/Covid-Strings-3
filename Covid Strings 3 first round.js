@@ -7,7 +7,7 @@ viewport content=width=device-width
 intial-scale=one
 title covid strings3 first round bracket
 div id bracket class bracket div
-script src bracket .js
+script src bracket.js
 link rel = stylesheet href =styles.css
 head
 body
