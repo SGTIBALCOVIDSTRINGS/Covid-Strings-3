@@ -27,11 +27,11 @@ round.classlist.add(covid strings3 first round);
 document addeventlistener(domcontentloaded)
 bracket=document getelementbyid(bracket)
 matchup=document.createelement(matchup)
-create matchup (intermediate seed2 versus intermediate seed1)
+matchup1= (intermediate seed2 versus intermediate seed1)
 matchup.covid strings seed list.add(matchup)
 bracket.appendchild(matchup)
 matchup=document.createelement(matchup)
-create matchup(lowest remaining seed versus highest remaining seed )
+matchup2=(lowest remaining seed versus highest remaining seed )
 matchup.covid strings seed list.add(matchup)
 bracket.appendchild(matchup)
 java util.scanner
@@ -52,12 +52,12 @@ private string getblanks(int numberofblanks)
 char[] chars = char[numberofblanks]
 arrays.fill chars 
 return string chars 
-advancingteams=slice(currentteams)
 bracket.innerhtml= html;
-result =declarewinner(team1 score, team2 score)
+advancingteams=slice(currentteams)
+result=declarewinner(matchup1)
 if intermediateseed1score>=fourty:
 console.log(intermediate seed1 wins)
-result =declarewinner(team1score,team2score)
+result=declarewinner(matchup2)
 if highestremainingseedscore>=fourty:
 console.log(highest remaining seed wins)
 else:
