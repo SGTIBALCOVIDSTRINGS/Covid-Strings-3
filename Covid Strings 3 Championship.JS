@@ -1,4 +1,4 @@
-doc. type. html
+doc.type.html
 script
 html
 head
