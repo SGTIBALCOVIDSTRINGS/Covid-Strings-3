@@ -77,42 +77,42 @@ private string getblanks(int numberofblanks)
 char[] chars = char[numberofblanks]
 arrays.fill chars 
 return string chars 
-bracket.AddEventListener((Event) => 
-MyClass=(Non-Concatenated)
-If Category==Math Problem:
-Prompt
-Log
-Else:
-Select From Multiple Choice
-If Category == MultipleChoice:
-Select Answer
-Else:
-Prompt
-Log
-MyClass=New MyClass(Concatenated) 
-Return Category
-If Category==Math Problem:
-Prompt
-Log
-Else:
-Select From Multiple Choice
-If Category == MultipleChoice:
-Select Answer
-Else:
-Prompt
-Log
-Import Syntax 
-Team1=Lower Ranked Seed
-Team2=The Higher Seeded Opponent
-Points: 10 Points Or 20 Points
-<Subheading.Html>
-Team Stealing
-Steal Points(StealingTeam,VictimTeam,PointsToSteal)
-If(VictimTeam.Points>=PointToSteal)
-VictimTeam.Points-=PointToSteal;
-StealingTeamPoints+=PointsToSteal
-Console.Log([StealingTeam.Name} Stole Points From {Victim Team Name}!)
-Else:
+bracket.addeventlistener((event) => 
+myclass=(non-concatenated)
+if category==math problem:
+prompt
+log
+else:
+select from multiple choice
+if category ==multiplechoice:
+select answer
+else:
+prompt
+log
+myclass=new myclass(concatenated) 
+return category
+if category==math problem:
+prompt
+log
+else:
+select from multiple choice
+if category ==multiplechoice:
+select answer
+else:
+prompt
+log
+import syntax 
+team1=lower ranked seed
+team2=the higher seeded opponent
+points: 10 points or 20 points
+<subheading.html>
+team stealing
+steal points(stealingteam,victimteam,pointstosteal)
+if(victimteam.points>=pointtosteal)
+victimteam.points-=pointtosteal;
+stealingteampoints+=pointstosteal
+console.log([stealingteam.name} stole points from {victim team name}!)
+else:
 console.log({victimteam.name} doesnt have enough points to steal)
 if teams final  answer==incorrect:
 opposing team steals
