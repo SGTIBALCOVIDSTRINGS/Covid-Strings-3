@@ -47,8 +47,8 @@ createround
 round = document.createelement(div);
 round.classlist.add(covid strings3 first round);
 document addeventlistener(domcontentloaded)
-<Header.Html>
-Matchups
+<header.html>
+matchups
 contains 4 teams which equals 2 matchups 
 bracket=document getelementbyid(bracket)
 matchup=document.createelement(matchup)
