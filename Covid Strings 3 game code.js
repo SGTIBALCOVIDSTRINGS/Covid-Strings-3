@@ -214,6 +214,15 @@ system.out print in (“the number is“ +number)
 bonus question
 the extra question or questions that appear around the end of the game
 covid strings3 bonus question=("would"+"there"+"need"+"to"+"be"+"a"+"comma"+"if"+"the"+"previous"+"sentence"+"included"+"the"+"word"+"below"?)
+string manager{non-concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string manager{concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string=””
 for string in covid strings3 bonus question
 select characters
 edit diffuse property
