@@ -48,12 +48,9 @@ button panel=
 new  panel (flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
-override 
-<header.html>
-game code part1
-part1 of game code for covid strings3(value object[team-color]-desired color green)
-public actionperformed(actionevente)
-random r= newrandom();
+override
+public action performed 
+randon r =new random
 <header.html>
 background functions
 the functions that lead into the background that are the first things the user will experience
@@ -68,8 +65,11 @@ teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
 optionbutton.add actionlistener(new action listener)
 override 
+<header.html>
+game code part1
+part1 of game code for covid strings3(value object[team-color]-desired color green)
 public actionperformed(actionevente)
-color m=jcolorchooser.showdialog(funwithgraphics.this,))
+color m=jcolorchooser.showdialog(funwithgraphics.this)
 if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel,borderlayout.south)
@@ -109,21 +109,15 @@ covid strings3 team list=[black night riders,purple brave hearts ,pink covid dis
 <header.html>
 phrases
 phrases that involve both non-concatenated and concatenated strings 
-covid strings3 phrase list=[non-concatenated strings "a mask is not the shape of an arrowhead,covid rarely wins a vote against vaccines","kelly clarkson is right; christmas isnt canceled just big christmas gatherings"
-"a faucian bargain is better than a faustian bargain" 
-"the masters in fall is not the same as the fall of the masters"
-"similarly, the summer olympics doesnt disappoint because of the fact that its held in an odd year"
-"the unxplained should  have a covid-nineteen specific special"
-"its pandemic special overall is still good"
+covid strings3 phrase list=[non-concatenated strings "a mask is not the shape of an arrowhead,covid rarely wins a vote against vaccines",
+ "kelly clarkson is right; christmas isnt canceled just big christmas gatherings""a faucian bargain is better than a faustian bargain" ,
+ "the masters in fall is not the same as the fall of the masters","similarly, the summer olympics doesnt disappoint because of the fact that its held in an odd year",
+ "the unxplained should  have a covid-nineteen specific special""its pandemic special overall is still good"
 concatenated strings
-"pandemic"+"time"+"is"+"somewhat"+"different"+"than"+"normal"+"time"
-"it"+"is"+"more"+"polychronic"+"than"+"you"+"think"
-"covid"+"cough"+"cannot"+"be"+"cured"+"by"+"soda"+"alone"
-"nothing"+"about"+"the"+"pandemic"+"resembles"+"the"+"holocaust"
-"it"+"is"+"also"+"inappropriate"+"to"+"not"+"vaccinate"+"the"+"world"+"as"+"well"
-"if"+"you"+"dont"+"you"+"may"+"be"+"visited"+"by"+"at"+"least"+"three"+"more"+"variants"
-"chinas"+"covid"+"victory"+"musuem"+"sounds"+"like"+"north"+"koreas"+"korean"+"war"+"museum"
-"there"+"are"+"plenty"+"of"+"chinese"+"government"+"covid"+"lies"]
+"pandemic"+"time"+"is"+"somewhat"+"different"+"than"+"normal"+"time","it"+"is"+"more"+"polychronic"+"than"+"you"+"think",
+ "covid"+"cough"+"cannot"+"be"+"cured"+"by"+"soda"+"alone","nothing"+"about"+"the"+"pandemic"+"resembles"+"the"+"holocaust",
+ "it"+"is"+"also"+"inappropriate"+"to"+"not"+"vaccinate"+"the"+"world"+"as"+"well","if"+"you"+"dont"+"you"+"may"+"be"+"visited"+"by"+"at"+"least"+"three"+"more"+"variants",
+"chinas"+"covid"+"victory"+"musuem"+"sounds"+"like"+"north"+"koreas"+"korean"+"war"+"museum","there"+"are"+"plenty"+"of"+"chinese"+"government"+"covid"+"lies"]
 string manager{non-concatenated}
 insert string (entity,string)
 entity.element.text=string
@@ -235,27 +229,33 @@ private string getblanks(int numberofblanks)
 char[] chars =char[numberofblanks]
 arrays.fill chars 
 return string chars 
-if math problem== x percent:
-subtract exact from one hundred
-if math problem== margin of error:
-add and subtract exact 
-else:
-remain constant
 userin.select team
 importmeta.
 class myclass
-constructor (non-xoncatenated)
+constructor (non-concatenated)
 return category
 if category==math problem:
-type answer
+prompt
+log
 else:
 select from multiple choice
+if problem==multiple choice:
+select from multiple choice
+else:
+prompt
+log
 myclass=newmyclass(concatenated) 
 return category
 if category==math problem:
-type answer
+prompt
+log
 else:
 select from multiple choice
+if problem==multiple choice:
+select from multiple choice
+else:
+prompt
+log
 importsyntax 
 substring(start,end)
 <header.html>
@@ -301,8 +301,12 @@ the feature within covid strings that allows for the player to know if their tea
 check winner:
 if winner==true:
 log(the winner is)
+else:
+remain
 if winner==false:
 log(no winner yet)  
+else:
+log winner
 if users team wins covid strings3 
 console log users team wins covid strings3 
 else
