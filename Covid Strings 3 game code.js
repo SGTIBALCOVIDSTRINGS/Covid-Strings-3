@@ -30,7 +30,6 @@ img.src=http://www.google.com/intl/en_com/images/logo_plain.png
 src=documentgetelementbyid(header)
 src.appendchild(this.img)
 filename=covid strings3 .js
-src.appendchild(this.img)
 <header.html>
 game code overview
 an outline of the game code for covid strings3
@@ -50,6 +49,9 @@ new  panel (flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
 override 
+<header.html>
+game code part1
+part1 of game code for covid strings3(value object[team-color]-desired color green)
 public actionperformed(actionevente)
 random r= newrandom();
 <header.html>
@@ -103,35 +105,11 @@ object {a:one,b:two,c:three,d:four,e:five,f:six,g:seven,h:eight}
 keys object keys(team)
 entries object entries(obj);
 value object= [team color]
-<header.html>
-game code part1
-part1 of game code for covid strings3(value object[team-color]-desired color green)
 covid strings3 team list=[black night riders,purple brave hearts ,pink covid disease fighters ,turquoise waves ,violet relivers ,teal terminators ,yellow moxie ,orange rna messengers]
-string manager{non-concatenated}
-insert string (entity,string)
-entity.element.text=string
-string manager insert string
-string manager{concatenated}
-insert string (entity,string)
-entity.element.text=string
-string manager insert string
-string=””
-for string in covid strings3 phrase list 
-select characters
-edit diffuse property
-desired color=green
-for string in covid strings3 math problems list 
-select characters
-edit diffuse property
-desired color=green
-for string in covid strings3 sentence list 
-select characters
-edit diffuse property
-desired color=green
 <header.html>
 phrases
 phrases that involve both non-concatenated and concatenated strings 
- covid strings3 phrase list=[non-concatenated strings "a mask is not the shape of an arrowhead,covid rarely wins a vote against vaccines","kelly clarkson is right; christmas isnt canceled just big christmas gatherings"
+covid strings3 phrase list=[non-concatenated strings "a mask is not the shape of an arrowhead,covid rarely wins a vote against vaccines","kelly clarkson is right; christmas isnt canceled just big christmas gatherings"
 "a faucian bargain is better than a faustian bargain" 
 "the masters in fall is not the same as the fall of the masters"
 "similarly, the summer olympics doesnt disappoint because of the fact that its held in an odd year"
@@ -146,6 +124,19 @@ concatenated strings
 "if"+"you"+"dont"+"you"+"may"+"be"+"visited"+"by"+"at"+"least"+"three"+"more"+"variants"
 "chinas"+"covid"+"victory"+"musuem"+"sounds"+"like"+"north"+"koreas"+"korean"+"war"+"museum"
 "there"+"are"+"plenty"+"of"+"chinese"+"government"+"covid"+"lies"]
+string manager{non-concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string manager{concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings3 phrase list 
+select characters
+edit diffuse property
+desired color=green
 <header.html>
 multiple choice questions
 multiple choice questions and answers that will appear in covid strings3 
@@ -163,6 +154,19 @@ covidstrings3 math problems list=[ non concatenated strings  "if there were two 
 "if the rate was five and two ninths percent and the cut for deciding whether to shut down is anything greater than or equal to four and a fifth percent should it shut down"?, "after seven weeks if the rate decreases to two and seven ninths percent should the lockdown remain in place?",
 "if rates climb to four and a quarter percent should a lockdown be reinstated"?,"if the rate decreases to four and a fifth percent should the lockdown remain in place"?,"if oil prices are projected to decline for at least two years and the rate is approximately thirty dollars and seventy three cents per month how much could it decline two years from now"?, "if the price of oil fell below zero dollars in twenty-twenty and projections of demand coming back say it wont until at least late twenty-twenty one how much would it fall to if the estimated rate per month is five percent"?, 
 concatenated strings  "a"+"report"+"claims"+"disease"+"x"+"could"+"be"+"twenty"+"times"+"deadlier"+"than"+"covid"+"if"+"gdp"+"globally"+"decreased"+"by"+"three"+"percent"+"how"+"much"+"could"+"it"+"drop"+"when"+"disease"+"x"+"hits"?,"the"+"us"+"gdp"+"dropped"+"three and four tenths percent"+"overall"+"given"+"this"+"what"+"could"+"it"+"drop"+"to"+"when"+"disease"+"x"+"hits"?,"if"+"it"+"turns"+"out"+"that"+"the"+"actual"+"range"+"is"+"anywhere"+"from"+"ten"+"to"+"fifteen"+"times"+"what"+"would"+"the"+"percent"+"be"?,"on"+"the"+"other"+"hand"+"if"+"who"+"projections"+"say"+"that"+"the"+"range"+"is"+"more"+"fifteen"+"to"+"twenty"+"times"+"for"+"countries"+"that"+"spend"+"poorly"+"if"+"us"+"spending"+"for"+"disease"+"x"+"was"+"only"+"ten"+"percent"+"what"+"is"+"the"+"decrease"+"in"+"gdp"?,"if"+"it"+"turns"+"out"+"that"+"the"+"disease"+"x"+"was"+"prevented"+"from"+"being"+"a"+"pandemic"+"in"+"the"+"first"+"place"+"what"+"is"+"the"+"effect"+"on"+"gdp"?,"if"+"it"+"ends"+"up"+"being"+"that"+"disease"+"x"+"was"+"a"+"false"+"positive"+"and"+"there"+"is"+"nothing"+"to"+"worry"+"about"+"yet"+"should"+"you"+"sell"+"any"+"stock"?]
+string manager{non-concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string manager{concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings3 math problems list 
+select characters
+edit diffuse property
+desired color=green
 public static main(string []args)
 int number
 number=number*2
@@ -191,6 +195,23 @@ remain
 sentences
 covid related sentences that will appear in covid strings3
 covid strings3 sentence list=["masks"+"are"+"part"+"of"+"a"+"broader"+"protection"+"strategy"+"against"+"covid","covid"+"string"+"games"+"are"+"a"+"new"+"way"+"to"+"help"+"archive"+"covid"]
+string manager{non-concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string manager{concatenated}
+insert string (entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings3 sentence list 
+select characters
+edit diffuse property
+desired color=green
+string.split   
+arrays.aslist(liststring)
+for (string ss:arr)
+system.outprintin(ss)
 public static main(string []args)
 int number
 number=number*2
@@ -199,16 +220,16 @@ system.out print in (“the number is“ +number)
 bonus question
 the extra question or questions that appear around the end of the game
 covid strings3 bonus question=("would"+"there"+"need"+"to"+"be"+"a"+"comma"+"if"+"the"+"previous"+"sentence"+"included"+"the"+"word"+"below"?)
+for string in covid strings3 bonus question
+select characters
+edit diffuse property
+desired color=green
 <header.html>
 game code part2
 the rest of the game code excluding answer and winner checker
-string.split   
-arrays.aslist(liststring)
-for (string ss:arr){
-system.outprintin(ss)
 java util.scanner
 java.util
-questions[]questions={
+questions=total# of questions from covid strings3 [first-championship round] 
 collections.shuffle(arrays.aslist(questions)
 private string getblanks(int numberofblanks)
 char[] chars =char[numberofblanks]
