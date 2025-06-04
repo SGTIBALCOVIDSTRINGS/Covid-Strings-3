@@ -24,13 +24,17 @@ console log updated string
 keywords
 key search words for covid strings3
 covid strings 3 key word list=[pandemic time different than normal time,more,cough cured by soda and lemon juice,christmas isnt canceled just,not same fall of the masters,20*3,3.4*20,3.4*10-15,3.4*15-20,faucian,covid victory north korea,olympics odd year,unexplained special,price of oil ,covid strings games 30.73*24]
+string manager non-concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
 string=””
-for string in covid strings search word list
-select characters
-edit diffuse property
-desired color=green
+string manager concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
 string=””
-for string in covid strings math problem list
+for string in covid strings key word list
 select characters
 edit diffuse property
 desired color=green
